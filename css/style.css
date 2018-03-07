@@ -1,0 +1,43 @@
+body{
+		background: #f2f2f2;
+}
+.slider{
+	width:800px;
+	height:380px;
+	border:1px solid gray;
+	margin: 115px auto;
+
+}
+.slider h1{
+	left: 270px;
+	position: relative;
+	font-family: Tahoma;
+	
+
+}
+.slideItems{
+	height:377px;
+	border:1px solid black;
+	overflow: hidden;
+
+}
+.slideItems img{
+	width:100%;
+	height: 100%;
+	background-size: cover;
+}
+.left {
+	width: 6%;
+	height: 6%;
+	opacity: 0.5;
+	position: relative;
+	bottom: 50%;
+}
+.right {
+	width: 6%;
+	height: 6%;
+	opacity: 0.5;
+	position: relative;
+	left: 88%;
+	bottom: 50%;
+}
